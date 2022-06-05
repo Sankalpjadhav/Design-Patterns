@@ -5,11 +5,11 @@ import com.designpattern.factorymethod.message.Message;
 public class Client {
 
 	public static void main(String[] args) {
-		printMessage(new com.designpattern.factorymethod.JSONMessageCreator());
-		printMessage(new com.designpattern.factorymethod.TextMessageCreator());
+		printMessage(new JSONMessageCreator());
+		printMessage(new TextMessageCreator());
 	}
 	
-	public static void printMessage(com.designpattern.factorymethod.MessageCreator creator) {
+	public static void printMessage(MessageCreator creator) {
 		Message msg = creator.getMessage();
 		System.out.println(msg);
 	}
