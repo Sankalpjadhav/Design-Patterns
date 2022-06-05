@@ -16,5 +16,4 @@ public abstract class Message {
 	public void encrypt() {
 		//# Has some code to encrypt the content
 	}
-	
 }

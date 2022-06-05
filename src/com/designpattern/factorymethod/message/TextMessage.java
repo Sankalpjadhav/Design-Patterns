@@ -6,5 +6,4 @@ public class TextMessage extends Message {
 	public String getContent() {
 		return "Text";
 	}
-	
 }

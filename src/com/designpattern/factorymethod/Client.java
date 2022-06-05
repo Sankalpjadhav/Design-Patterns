@@ -6,7 +6,6 @@ public class Client {
 
 	public static void main(String[] args) {
 		printMessage(new com.designpattern.factorymethod.JSONMessageCreator());
-		
 		printMessage(new com.designpattern.factorymethod.TextMessageCreator());
 	}
 	

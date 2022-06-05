@@ -12,6 +12,5 @@ public class JSONMessageCreator extends com.designpattern.factorymethod.MessageC
 	public Message createMessage() {
 		return new JSONMessage();
 	}
-
 	
 }

@@ -6,5 +6,4 @@ public class JSONMessage extends Message {
 	public String getContent() {
 		return "{\"JSON]\":[]}";
 	}
-	
 }

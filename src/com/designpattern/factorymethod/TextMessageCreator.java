@@ -12,7 +12,4 @@ public class TextMessageCreator extends MessageCreator {
 	public Message createMessage() {
 		return new TextMessage();
 	}
-
-
-
 }
