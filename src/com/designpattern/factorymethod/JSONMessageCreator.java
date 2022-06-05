@@ -6,7 +6,7 @@ import com.designpattern.factorymethod.message.Message;
 /**
  * Provides implementation for creating JSON messages
  */
-public class JSONMessageCreator extends com.designpattern.factorymethod.MessageCreator {
+public class JSONMessageCreator extends MessageCreator {
 
 	@Override
 	public Message createMessage() {
