@@ -4,7 +4,7 @@ package com.designpattern.simplefactory;
  * Represents a blog post. 
  * 
  */
-public class BlogPost extends Post {
+public class  BlogPost extends Post {
 
 	private String author;
 	
